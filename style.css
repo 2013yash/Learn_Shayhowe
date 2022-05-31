@@ -248,10 +248,10 @@ h5 {
      background: #fff;
      color: #648880;
  }
- .row,
+ /* .row,
  .row-alt{
-     /* min-width: 960px; */
- }
+     min-width: 960px;
+ } */
  .row{
      background: #fff;
      padding: 66px 0 44px 0;
