@@ -89,7 +89,7 @@ body{
     color: #888;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.grid{
+.grid-index{
     /* margin: 0 auto;
     width:400px; */
     display: flex;
@@ -136,7 +136,7 @@ a:hover{
 a{
     color: #648880;
 }
-h3,h4, h5, p{
+h4, h5, p{
     margin-bottom: 22px;
 }
 .primary-footer small{
@@ -150,12 +150,12 @@ h3,h4, h5, p{
 .col-2-3{
     vertical-align: top;
 }
-/* .grid,
+.grid-index,
 .col-1-3,
 .col-2-3{
     padding-left: 15px;
     padding-right: 15px;
-} */
+}
 .col-1-3{
     width: 28%;
 }
@@ -209,6 +209,7 @@ h5 {
 }
 .nav{
     text-align: right;
+    padding-bottom: 40px;
 }
 .logo{
     border-top: 4px solid #648880;
@@ -267,4 +268,28 @@ h5 {
  .lead p{
      font-size: 21px;
      line-height: 33px;
+ }
+ .nav ul{
+     display: flex;
+     justify-content: flex-end;
+ }
+ .nav li{
+     margin: 0 10px;
+
+ }
+ .nav li:last-child{
+     margin-right: 0;
+ }
+ .speaker-info{
+     border: 1px solid #dfe2e5;
+     border-radius: 5px;
+     margin-top: 88px;
+     padding: 22px 0;
+     text-align: center;
+ }
+ #name{
+     display: flex;
+ }
+ .speaker{
+     margin-bottom: 44px;
  }
